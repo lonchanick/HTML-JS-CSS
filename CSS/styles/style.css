@@ -1,5 +1,43 @@
-p:hover {
-    color:red;
-    background-color: aqua;
-    width: 200px;
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    color: #00539f;
+    /* text-shadow: 3px 3px 1px black; */
 }
+
+html {
+    font-family: "Ubuntu Sans Mono", monospace;
+    font-size: 15px;
+    margin: 0;
+    background-color: #00539f;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+  margin: 0;
+  padding: 0 auto;
+  text-align: justify;
+}
+
+body {
+    width: 600px;
+    background-color: #ff9500;
+    border: 5px solid black;
+    margin: 0 auto;
+    padding: 20px;
+    margin: 50px auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+}
+
+
