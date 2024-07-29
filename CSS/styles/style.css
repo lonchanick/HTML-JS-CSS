@@ -40,4 +40,74 @@ img {
     padding: 0;
 }
 
+p *{
+    text-decoration: underline;
+}
 
+
+/* css  */
+/* span{
+    background-color: yellow;
+} */
+strong
+{
+    color: rebeccapurple;
+}
+em{
+    color: red;
+}
+
+/*  this applies to any first child element  of an article element*/
+article :first-child
+{
+    text-decoration: underline;
+}
+/* could be done like this instead above */
+/* article :first-child
+{
+    text-decoration: underline;
+} */
+
+/* this applies to every article whom is the first child of any other element */
+article:first-child
+{
+    background-color: white
+}
+
+p.classSelector
+{
+    background-color: blue;
+    color: white;
+}
+h3.classSelector
+{
+    background-color: aquamarine;
+}
+
+/* multiclass selector */
+.notebox.warning{
+    color: yellow;
+}
+.notebox.danger{
+    color: red;
+}
+.notebox{
+    text-decoration: solid;
+}
+
+article p:first-child
+{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+article p::first-line
+{
+    color: white;
+}
+
+/* child selector */
+ul > li {
+    color: blue;
+    font-weight: bold;
+}
