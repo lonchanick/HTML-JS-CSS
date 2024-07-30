@@ -17,12 +17,13 @@ html {
 
 p,
 li {
-  font-size: 16px;
+  font-size: 18px;
   line-height: 2;
   letter-spacing: 1px;
   margin: 0;
   padding: 0 auto;
   text-align: justify;
+  font-family: monospace;
 }
 
 body {
@@ -111,3 +112,25 @@ ul > li {
     color: blue;
     font-weight: bold;
 }
+
+
+/* combinators */
+
+.combinators h2{
+    color: white;
+    font-size: 25px;
+}
+
+.combinators>p{
+    color: rebeccapurple;
+}
+
+.combinators ul>li{
+    border-bottom: 1px solid #00539f;
+}
+
+h2 + p {
+    color: white;
+}
+
+ 
