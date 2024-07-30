@@ -1,4 +1,11 @@
 
+/* CSS reset all elements */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 h1{
     font-size: 50px;
     text-align: center;
@@ -27,12 +34,14 @@ li {
 }
 
 body {
-    width: 600px;
+    width: 800px;
     background-color: #ff9500;
     border: 5px solid black;
     margin: 0 auto;
     padding: 20px;
     margin: 50px auto;
+    /* to allows the height to grows with the content */
+    min-height: 100vh;
 }
 
 img {
@@ -131,6 +140,7 @@ ul > li {
 
 h2 + p {
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
  
